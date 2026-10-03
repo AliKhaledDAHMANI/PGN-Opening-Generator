@@ -50,7 +50,7 @@ Requires Python 3.9+ and [python-chess](https://python-chess.readthedocs.io/).
 Stockfish 16 or newer is strongly recommended.
 
 ```console
-git clone https://github.com/AliKhaledDAHMANI/pgn-opening-generator.git
+git clone https://github.com/AliKhaledDAHMANI/PGN-Opening-Generator.git
 cd pgn-opening-generator
 
 python3 -m venv .venv
