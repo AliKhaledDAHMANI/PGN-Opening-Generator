@@ -116,8 +116,8 @@ result = generate_pgn("main line of the Italian Game",
                       overrides={"main_line_moves": 10, "variations": 2})
 
 print(result.pgn)
-assert result.report.ok                    # validation passed
-assert result.report.engine_validated      # Stockfish really ran
+assert result.report.ok
+assert result.report.engine_validated
 print(result.opening.eco, result.opening.name)
 ```
 
@@ -202,7 +202,7 @@ First create and activate the virtual environment as described in the
 
 ```console
 python -m pip install -r requirements-dev.txt
-pytest -q                       # engine tests skip automatically without Stockfish
+pytest -q
 PGNGEN_ENGINE_PATH=/path/to/stockfish pytest -q
 ```
 
